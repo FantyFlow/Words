@@ -14,4 +14,6 @@
     <string name="item_search">Search</string>
     <string name="button_submit">Submit</string>
     <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
 </resources>
