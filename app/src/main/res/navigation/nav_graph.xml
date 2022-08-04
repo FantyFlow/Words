@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/WordsFragment">
+
+    <fragment
+        android:id="@+id/WordsFragment"
+        android:name="com.example.words.WordsFragment"
+        android:label="@string/words_fragment_label"
+        tools:layout="@layout/fragment_words">
+
+        <action
+            android:id="@+id/action_WordsFragment_to_AddFragment"
+            app:destination="@id/AddFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/AddFragment"
+        android:name="com.example.words.AddFragment"
+        android:label="@string/add_fragment_label"
+        tools:layout="@layout/fragment_add" />
+</navigation>

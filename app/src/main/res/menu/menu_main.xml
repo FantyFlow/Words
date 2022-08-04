@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.words.MainActivity">
+    <item
+        android:id="@+id/app_bar_clear"
+        android:title="@string/item_clear" />
+    <item
+        android:id="@+id/app_bar_switch"
+        android:title="@string/item_switch"
+        app:actionViewClass="com.google.android.material.switchmaterial.SwitchMaterial" />
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/item_search"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always" />
+</menu>

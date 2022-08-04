@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">词汇记录</string>
-    <string name="fragment_add">添加单词</string>
-    <string name="fragment_words">单词</string>
-    <string name="edit_chinese">中文释义</string>
+    <string name="words_fragment_label">单词列表</string>
+    <string name="add_fragment_label">添加单词</string>
+    <string name="text_fab">添加单词</string>
     <string name="item_clear">清除数据</string>
     <string name="item_switch">切换视图</string>
     <string name="item_search">搜索</string>
     <string name="edit_english">英文单词</string>
-    <string name="text_add">添加单词</string>
+    <string name="edit_chinese">中文释义</string>
     <string name="button_submit">确定</string>
 </resources>

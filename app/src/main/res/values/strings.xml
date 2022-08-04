@@ -1,19 +1,15 @@
 <resources>
     <string name="app_name">Words</string>
-    <string name="fragment_words">Words</string>
-    <string name="fragment_add">Add</string>
-    <string name="button_floating" translatable="false">button floating</string>
-    <string name="text_number" translatable="false">1</string>
+    <string name="words_fragment_label">Words List</string>
+    <string name="add_fragment_label">Add Words</string>
+    <string name="text_fab">AddWord</string>
+    <string name="text_number" translatable="false">%d</string>
     <string name="text_english" translatable="false">English</string>
     <string name="text_chinese" translatable="false">中文</string>
-    <string name="text_add">Add Words</string>
-    <string name="edit_english">English Word</string>
-    <string name="edit_chinese">Chinese Meaning</string>
     <string name="item_clear">Clear Data</string>
     <string name="item_switch">Switch View</string>
     <string name="item_search">Search</string>
+    <string name="edit_english">English Word</string>
+    <string name="edit_chinese">Chinese Meaning</string>
     <string name="button_submit">Submit</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
-    <!-- TODO: Remove or change this placeholder text -->
 </resources>
